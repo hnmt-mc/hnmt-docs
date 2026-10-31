@@ -28,6 +28,7 @@ export default defineConfig({
         { autogenerate: { directory: 'quickshop' } },
       ] },
       { label: 'チャット', items: [{ slug: 'town/chat' }] },
+      { label: 'ルール', items: [{ autogenerate: { directory: 'rules' } }] },
       { label: '✍️ ガイドの編集', slug: 'contributing' },
     ],
   })],
