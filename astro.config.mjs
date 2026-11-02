@@ -19,6 +19,7 @@ export default defineConfig({
     sidebar: [
       { label: '📖 ガイドの入口', slug: '' },
       { label: 'はじめに', items: [{ autogenerate: { directory: 'start' } }] },
+      { label: 'ルール', items: [{ autogenerate: { directory: 'rules' } }] },
       { label: '暮らしの便利機能', items: [{ autogenerate: { directory: 'life' } }] },
       { label: '釣りと料理', items: [{ autogenerate: { directory: 'fishing' } }] },
       { label: 'お酒と飲料', items: [{ autogenerate: { directory: 'brewing'}}]},
@@ -28,7 +29,6 @@ export default defineConfig({
         { autogenerate: { directory: 'quickshop' } },
       ] },
       { label: 'チャット', items: [{ slug: 'town/chat' }] },
-      { label: 'ルール', items: [{ autogenerate: { directory: 'rules' } }] },
       { label: '✍️ ガイドの編集', slug: 'contributing' },
     ],
   })],
